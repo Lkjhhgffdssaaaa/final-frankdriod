@@ -187,3 +187,24 @@ body.open .navbar-menu .nav-li li{
     inset -4px -4px 6px 0 rgba(255,255,255,.2),
     inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
 }
+
+#waziki_btn{
+  background: #3333;
+  background: linear-gradient(0deg, #333333 0%, #333333 100%);
+  border: none;
+}
+
+.mobile{
+  display: none;
+}
+
+@media screen and (max-width: 799px) {
+  .screen{
+    display: none;
+  }
+
+  .mobile{
+    display: flex;
+    justify-content: flex-end;
+  }
+}
